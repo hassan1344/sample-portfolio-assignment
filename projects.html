@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Projects - My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>My Projects</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="project-list">
+    <h2>Filter Projects</h2>
+    <input type="text" id="filter-input" oninput="filterProjects()" placeholder="Type technology (e.g. C#, Java)">
+    <ul id="projects">
+      <li class="project" data-technology="Node.js">Leet9 Gaming Dashboard (Node.js)</li>
+      <li class="project" data-technology="Node.js">Fejora App (Node.js)</li>
+      <li class="project" data-technology="Django">Reader-writer problem (Linux)</li>
+      <li class="project" data-technology="React.js">Fixlancer (React.js)</li>
+    </ul>
+  </section>
+</body>
+
+</html>
